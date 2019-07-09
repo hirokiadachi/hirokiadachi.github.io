@@ -1,4 +1,4 @@
-#site-box{top: 750px;}
+#site-box{width: 992px;}
 
 body{
      background-color: #dfe6e9;
@@ -26,6 +26,7 @@ body{
               float: right;
               width:40%;
               font-size: 15px;
+              text-align: right;
              }
 
 
