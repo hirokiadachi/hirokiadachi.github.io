@@ -56,6 +56,29 @@ a{
 	transform: scale(1.15);
 }
 
+.box{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 300px;
+}
+
+.image{
+  position: absolute;
+  top: 40%;
+  left: 90%;
+  transform: translate(-80%, -42%);
+  border: 2px solid #2d3436;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+
+#image-box{
+  float: left;
+  width: 30%;
+  height: 10px;
+}
+
 #left-box{
            float: left;
            width: 30%;
@@ -66,15 +89,6 @@ a{
             width: 60%;
             margin: 20px;
            }
-
-#face-img {
-           border: 3px solid #2d3436;
-           border-radius: 50%;
-           width:  200px;
-           height: 200px;
-           display: inline-block;
-           box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
-          }
 
 #icon {
        width: 50px;
@@ -87,8 +101,8 @@ a{
        border: 2px dashed #aaa69d;
       }
 
-img {transition: 0.7s;}
-img:hover {opacity: 0.5;
+img {transition: 0.2s;}
+img:hover {opacity: 0.35;
            filter: alpha(opacity=70);
            -ms-filter: "alpha(opacity=70)";
           }
