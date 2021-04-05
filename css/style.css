@@ -17,14 +17,14 @@ body{
              font-weight: 900;
              float: left;
              width: 40%;
-             font-size: 20px;
+             font-size: 15px;
              text-align: left;
              }
 
 #header-right{
               font-weight: 900;
               float: right;
-              width:40%;
+              width: 40%;
               font-size: 15px;
               text-align: right;
              }
@@ -80,7 +80,7 @@ a{
 }
 
 #face-image{
-  width: 300px;
+  width: 200px;
   height: 200px;
   border-radius: 50%;
   border: 2px solid #2d3436;
@@ -108,7 +108,7 @@ a{
        border: 2px dashed #aaa69d;
       }
 
-img {transition: 0.2s;}
+img {transition: 0.5s;}
 img:hover {opacity: 0.35;
            filter: alpha(opacity=70);
            -ms-filter: "alpha(opacity=70)";
